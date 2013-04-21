@@ -47,6 +47,12 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="LED\LEDController.cs" />
+    <Compile Include="LED\LEDHelper.cs" />
+    <Compile Include="LED\LEDPackege.cs" />
+    <Compile Include="LED\LEDReceivePackage.cs" />
+    <Compile Include="LED\LEDSendPackage.cs" />
+    <Compile Include="LED\NetHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmMain.resx">
